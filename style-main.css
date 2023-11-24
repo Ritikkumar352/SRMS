@@ -1,0 +1,440 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main_div {
+  display: flex;
+  flex-direction: row;
+  background-color:#45474b;
+}
+
+.left_div {
+  display: flex;
+  flex-direction: column;
+  height: 100svh;
+  width: 40%;
+}
+
+.upper_left_div {
+  background-color: #45474b;
+  height: 50svh;
+}
+
+
+.abes_logo{
+  position: absolute;
+  top:4px;
+  left:0;
+  height: 10%;
+  z-index: 2;
+}
+
+.lower_left_div {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  height: 50svh;
+  flex-wrap: wrap;
+}
+
+
+
+h2{
+  /* align-self: flex-end; */
+  color: #fff;
+}
+
+.student_login_div,.admin_login_div {
+  display: flex;
+  flex-direction: column;
+  /* background-color: yellowgreen; */
+  align-self: center;
+  padding: 3%;
+  text-align: center;
+}
+
+.student_logo,.admin_logo{
+  padding: 15%;
+  margin: 2%;
+  height: 200px;
+  width: auto;
+  border: 1px transparent;
+  /* border-radius: 53% 47% 57% 43% / 38% 28% 72% 62% ; */
+  /* border-radius: 50%; */
+  /* background-color: #f4ce14; */
+  
+  
+}
+
+/* .admin_login_div {
+  display: flex;
+  flex-direction: column;
+  background-color: yellowgreen;
+  align-self: center;
+} */
+
+
+
+.button {
+  padding: 10px 8px;
+  background-color: #f4ce14;
+  color: #45474b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 65%;
+  
+}
+
+.button:hover {
+  /* background-color: #efc909; */
+  background-color: #fff;
+  box-shadow: 2px 2px 2px black;
+
+}
+
+
+.right_div {
+  background-color: #f4ce14;
+  height: 100svh;
+  width: 60%;
+}
+
+
+
+/*Footer style*/
+
+/* .footer{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:center;
+ 
+
+}
+
+.social_icons,.menu{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.icon_list,.menu_link{
+  list-style: none;
+}
+
+.icon_list{
+  margin: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.icon_list:hover{
+  
+} */
+
+
+
+
+
+
+/*footer ex */
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #141414;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon_item,
+.menu_item {
+  list-style: none;
+}
+
+.social-icon_link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+.social-icon_link:hover {
+  transform: translateY(-10px);
+  color: #f4ce14;
+ opacity: 1;
+}
+
+.menu_link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu_link:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #f4ce14;
+}
+
+.discord:hover{
+  transform: rotate(180deg);
+  transition: 0.5s ease-in;
+  
+}
+
+p{
+  color: #fff;
+}
+
+
+
+@media (max-width: 768px) {
+  .main_div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left_div {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100svh;
+  }
+  .upper_left_div{
+    width: 100%;
+    padding: 5%;
+  }
+
+  .lower_left_div{
+    height: auto;
+    width: 100%;
+    
+  }
+  .student_login_div,.admin_login_div {
+    margin: 10px;
+  }
+
+  .right_div{
+    width: 100%;
+    height: 100dvh;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*old css*/
+/*
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.main_div_1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left_div {
+  height: 100vh;
+  width: 30%;
+  background-color: #45474B;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper_left{
+  height: 58vh;
+  width: 100%;
+ border: solid 2px gray;
+}
+
+.lower_left{
+  height: 38vh;
+  width: 100%;
+  /* border: solid 3px black; */
+/*
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center; /*flex-end right side*/
+/* } */
+/*
+.student,
+.admin {
+  display: flex;
+  background-color: green;
+  flex-direction: column;
+}
+
+.image {
+  height: 30px;
+  width: auto;
+}
+
+#img{
+  height: 100px;
+  width: auto;
+}
+
+.student_login , .admin_login
+{
+  background-color: #f4ce14;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px 6px;
+  margin: 5px;
+  text-align: center;
+  line-height: 2;
+}
+
+.button_container{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+button:hover{
+  background-color: #ebe9df;
+}
+
+.right_div {
+  height: 100vh;
+  width: 70%;
+  background-color: #f4ce14;
+}
+
+
+*/
+
+/*@media (max-width: 768px) {
+
+  .main_div_1
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left_div
+  {
+    display: flex;
+    width: 100%;
+    flex-direction:column-reverse ;
+  }
+
+  .upper_left
+  {
+    width: 100%;
+    height: 30%;
+  }
+
+  .lower_left
+  {
+    width: 100%;
+    height: 70%;
+  }
+
+
+  .right_div
+  {
+    width: 100%;
+    height: 100vh;
+  }
+
+
+
+}
+*/

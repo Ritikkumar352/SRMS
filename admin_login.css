@@ -1,0 +1,92 @@
+/*use *dvh* *svh* or lvh insted of vh for phone*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Libre Baskerville", serif;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .top {
+    border-bottom: 2px solid #45474b;
+    margin: 30px;
+  }
+  
+  .main_div {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/abes.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    /* filter: blur(10px); */
+    background-size:cover;
+  }
+  .login_div {
+    background-color: #f4ce14;
+    padding: 20px;
+    border-radius: 10px;
+    height: 60%;
+  }
+  
+  .login_div:hover{
+      box-shadow: 4px 5px 3px black;
+     
+      
+  }
+  
+  .text-field {
+    width: 90%;
+    height: 6vh;
+    padding-left: 8px;
+    border: none;
+    border-radius: 45px;
+    outline: none;
+  }
+  .text-field:hover {
+    box-shadow: 2px 3px 6px black;
+  }
+  
+  .text-field:focus {
+    box-shadow: 2px 3px 8px black;
+  }
+  
+  form {
+    text-align: center; /*Centers the form content horizontally 
+    background-color:#61616d; */
+  }
+  
+  input,
+  button {
+    margin: 5px;
+  }
+  
+  .register_link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .button {
+    padding: 8px 8px;
+    background-color: #45474b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 29%;
+  }
+  
+  button:hover {
+    background-color: #1c1c1d;
+  }
+  
+  .button:hover {
+    background-color: #1c1c1d;
+  }
+  

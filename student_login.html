@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABES_Login</title>
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="student_login.css">
+    <!-- Icon from font awesome -->
+    <script src="https://kit.fontawesome.com/ddf5cb9ace.js" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap"
+        rel="stylesheet">
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+
+    <div class="main_div">
+        <div class="login_div">
+            <form action="">
+                <h1 class="top">Login</h1>
+
+                <label for="roll_No">Roll No <i class="fa-solid fa-user"></i></label>
+                <br>
+                <input type="text" id="roll_No" name="username" minlength="13" maxlength="13" required
+                    placeholder="22003xxxxxxxx" class="text-field">
+                <br>
+                <label for="password">Password <i class="fa-solid fa-lock"></i></label>
+                <br>
+                <input type="password" name="password" id="password" minlength="4" maxlength="16" required
+                    class="text-field" placeholder="Enter your Password">
+                <br>
+                <input type="submit" value="login" class="button" name="login" onclick="message()">
+
+
+
+                <p>Don't have an account <a href="registration.html" class="register_link">Register</a></p>
+                <small id="forgot">Forgot password? <span id="reset"><a href="#" onclick="reset()">reset</a></span> </small>
+
+            </form>
+
+        </div>
+    </div>
+
+    <!-- <a href="registration.html"><button>Register</button></a> -->
+    <script src="main.js"> </script>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABES SRMS_Register</title>
+  <link rel="stylesheet" href="registration.css">
+  <!-- Icon from font awesome -->
+  <script src="https://kit.fontawesome.com/ddf5cb9ace.js" crossorigin="anonymous"></script>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap"
+    rel="stylesheet">
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon//favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+
+  <!-- 
+    Nav bar content  -->
+  <!-- <div class="nav-bar">
+        <nav>
+            <ol>
+                <li>Home</li>
+                <li>Admin-Login</li>
+                <li>Notices</li>
+                <li>Useful links</li>
+                <li>Contact us!</li>
+            </ol>
+        </nav>
+
+    </div> -->
+  <div class="landing-page">
+
+    <div class="login-div">
+      <a href="index.html"><img src="img/abes_logo.png" alt="ABES Logo" class="abes_logo" id="logo"></a>
+      <!-- <img src="img/document.jpeg" alt="ABES Logo" height="10px" width="10px" id="logo"> -->
+      
+      <form action="">
+        <h1 class="top">Register</h1>
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" name="name" id="name" required class="text-field" placeholder="Your name">
+        <br>
+        <label for="email">College email <i class="fa-solid fa-envelope"></i></label>
+        <br>
+        <input type="email" name="email" id="email" class="text-field" placeholder="example.22b0121085@abes.ac.in">
+        <br>
+        <label for="phone">Mobile No <i class="fa-solid fa-phone"></i></label>
+        <br>
+        <input type="text" name="phone" id="phone" minlength="10" maxlength="10" class="text-field"
+          placeholder="Your Mobile No.">
+        <br>
+        <label for="roll_No">Roll No <i class="fa-solid fa-user"></i></label>
+        <br>
+        <input type="text" id="roll_No" name="username" minlength="13" maxlength="13" required
+          placeholder="2200320120143" class="text-field">
+        <br>
+        <label for="password">Password <i class="fa-solid fa-lock"></i></label>
+        <br>
+        <input type="password" name="password" id="password" minlength="4" maxlength="16" required class="text-field"
+          placeholder="Creat a strong Password">
+        <br>
+        <input type="submit" value="Register" class="button" name="register">
+
+        <!-- use submit for for php or add a new button for submit 
+
+                <button class="-register-button">Register</button> -->
+
+
+        <p>Already have an account <a href="student_login.html" class="login-link">Login</a></p>
+
+      </form>
+
+
+
+    </div>
+    <div class="right-container">
+      <img src="img/png_girl_student-removebg-preview.png" alt="A female student Holding books in her hand"
+        class="female-student">
+      <div class="right-container-text">
+        <h2>Welcome to ABES Engineering College Result Management System</h2>
+        <br>
+        <h4>This system allows students to</h4>
+        <ul>
+          <li>Access their exam results</li>
+          <li>View course information</li>
+          <li>Stay updated with exam schedules.</li>
+        </ul>
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <ul class="social-icon">
+      <li class="social-icon_item"><a href="#" class="social-icon_link"><i class="fa-brands fa-x-twitter"></i></a></li>
+      <li class="social-icon_item"><a href="#" class="social-icon_link"><i class="fa-brands fa-instagram"></i></a></li>
+      <li class="social-icon_item"><a href="#" class="social-icon_link"><i class="fa-brands fa-linkedin"></i></a></li>
+      <li class="social-icon_item"><a href="#" class="social-icon_link"><i class="fa-brands fa-discord discord"></i></a></li>
+      <li class="social-icon_item"><a href="#" class="social-icon_link"><i class="fa-brands fa-telegram"></i></a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu_item"><a href="#" class="menu_link">Home</a></li>
+      <li class="menu_item"><a href="#" class="menu_link">About</a></li>
+      <li class="menu_item"><a href="#" class="menu_link">Contact</a></li>
+      <li class="menu_item"><a href="#" class="menu_link">Hellpful Links</a></li>
+    </ul>
+  <p>hello ❤</p>
+  </footer>
+  
+
+</body>
+
+</html>

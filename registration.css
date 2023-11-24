@@ -1,0 +1,280 @@
+/* Registration Page Style*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/* css for nav bar add this to all style-sheet   */
+/* .nav-bar
+{
+    position: fixed;
+    background-color:#;
+    color: #fff;
+    text-align: right;
+    width: 100%;
+    text-align: right;
+    
+
+}
+
+nav>ol>li
+{
+    display: inline-block;
+    text-decoration: underline #45474B;
+    color: black;
+    padding: 20px 10px;
+} */
+
+.abes_logo {
+  position: absolute;
+  top: 4px;
+  left: -4px;
+  height: 10%;
+  z-index: 2;
+}
+
+/* #logo
+{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    top: 0;
+    left: 0;
+   
+} */
+
+.top {
+  /* border-bottom: 2px solid #495E57; */
+  padding-bottom: 40px; /*use margin here fix this .. add that bottom line and check apperance*/
+}
+
+.landing-page {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.login-div {
+  padding: 1%;
+  width: 40%;
+  height: 100vh;
+  background-color: #f4ce14;
+  display: inline-block;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /*Line added to adjust logo*/
+  /* position: relative; */
+}
+
+.right-container {
+  padding: 1%;
+  width: 60%;
+  height: 100vh;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #45474b;
+  color: #fff;
+}
+
+.right-container-text {
+  padding: 2%;
+}
+.female-student {
+  width: 30vw;
+  height: auto;
+}
+.female-student:hover {
+  transform: scale(1.13);
+  transition: 0.3s ease-in-out;
+}
+
+.female-student:not(:hover) {
+  /* transform: scale(1.2); */
+  transition: opacity 1s ease-in-out; /* Add transition for returning to original opacity */
+}
+
+input,
+button {
+  margin: 5px;
+}
+
+/* button{
+    background-color: #45474B;
+    border-radius: 5px;
+} */
+
+.button,
+button {
+  padding: 8px 8px;
+  background-color: #45474b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #1c1c1d;
+}
+
+.button:hover {
+  background-color: #1c1c1d;
+}
+
+.login-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+/* 
+To Remove grey color from from above yellow delete this form css */
+
+form {
+  text-align: center; /*Centers the form content horizontally  */
+  /* background-color:#61616d; */
+}
+
+.text-field {
+  width: 100%;
+  height: 6vh;
+  padding-left: 8px;
+  border: none;
+  border-radius: 45px;
+  outline: none;
+}
+.text-field:hover {
+  box-shadow: 2px 3px 6px black;
+}
+
+.text-field:focus {
+  box-shadow: 2px 3px 8px black;
+}
+
+@media screen and (max-width: 768px) {
+  .landing-page {
+    flex-direction: column;
+  }
+
+  .login-div,
+  .right-container {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+  }
+
+  .right-container-text {
+    padding: 3%;
+    height: auto;
+  }
+
+  .login-div {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .female-student {
+    width: 40%;
+    height: auto;
+  }
+
+  .login-div {
+    padding: 5%;
+  }
+}
+
+/* .footer
+{
+    background-color: #ebe9df;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    height: 20vh;
+
+} */
+
+
+/*footer*/
+.footer {
+  position: relative;
+  width: 100vw;
+  background: #000;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon_item,
+.menu_item {
+  list-style: none;
+}
+
+.social-icon_link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+.social-icon_link:hover {
+  transform: translateY(-10px);
+  color: #f4ce14;
+ opacity: 1;
+}
+
+.menu_link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu_link:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #f4ce14;
+}
+
+.discord:hover{
+  transform: rotate(180deg);
+  transition: 0.5s ease-in;
+  
+}
+
+p{
+  color: #fff;
+}
