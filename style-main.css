@@ -254,7 +254,10 @@ p{
     margin: 5%;
     width:50px;
   } */
-
+  .right_img{
+    width: 80%;
+    height: auto;
+  }
   /*style this image for mobile view */
 
 
