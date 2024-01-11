@@ -30,6 +30,13 @@
   z-index: 2;
 }
 
+.welcome_text{
+  
+  text-align: center;
+  padding: 2%;
+  padding-top: 20%;
+}
+
 .lower_left_div {
   display: flex;
   /* align-items: center; */
@@ -102,45 +109,38 @@ h2{
   background-color: #f4ce14;
   height: 100svh;
   width: 60%;
+  text-align: center;
+
+
 }
+
+
+.right_img{
+  border-radius: 5%;
+  height: 60%;
+  margin: 5%;
+}
+
+/*Page 2 styke*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 /*Footer style*/
-
-/* .footer{
-  width: 100%;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content:center;
- 
-
-}
-
-.social_icons,.menu{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.icon_list,.menu_link{
-  list-style: none;
-}
-
-.icon_list{
-  margin: 10px;
-  color: black;
-  text-decoration: none;
-}
-
-.icon_list:hover{
-  
-} */
-
 
 
 
@@ -150,7 +150,7 @@ h2{
 
 .footer {
   position: relative;
-  width: 100%;
+  width:100%;
   background: #141414;
   min-height: 100px;
   padding: 20px 50px;
@@ -232,7 +232,7 @@ p{
   }
   .upper_left_div{
     width: 100%;
-    padding: 5%;
+    padding: 5%; 
   }
 
   .lower_left_div{
@@ -248,8 +248,19 @@ p{
     width: 100%;
     height: 100dvh;
   }
+  /* .right_img{
+    border-radius: 5%;
+    height: 50px;
+    margin: 5%;
+    width:50px;
+  } */
+
+  /*style this image for mobile view */
 
 
+  .footer{
+    width: 100svw;
+  }
 }
 
 
